@@ -23,13 +23,5 @@ register_commands(app, db)
 register_callbacks(app, db)
 
 # Main function to run the bot and the background task
-async def main():
-    await app.start()
-
-    # Keep the bot running
-    await app.idle()
-
-    await app.stop()
-
 if __name__ == "__main__":
-    asyncio.run(main())
+    app.run()
