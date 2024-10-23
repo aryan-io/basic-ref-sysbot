@@ -1,0 +1,3 @@
+pyrogram==2.0.106  # Pyrogram for Telegram bot
+pymongo[srv]==4.3.3  # MongoDB client for Python with support for SRV connection strings
+python-dotenv==1.0.0  # To load environment variables from a .env file
